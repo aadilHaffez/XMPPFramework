@@ -107,7 +107,8 @@
     [x addChild:accessModelField];
     
     NSXMLElement *publishOptions = [NSXMLElement elementWithName:@"publish-options"];
-    [publishOptions addChild:x];
+    //Aadil Removed
+    //[publishOptions addChild:x];
     
     [pubsub addChild:publishOptions];
     
